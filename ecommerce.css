@@ -1,0 +1,74 @@
+/*Color navbar and prevent overflowing content from straying out of its area*/
+.topnavbar {
+    background-color: #0bbe17;
+    overflow: hidden;
+}
+
+/*Colors, designs, formats, and cleans up navbar information as well as removes underline*/
+.topnavbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*Style the color change for hovering effect for navbar*/
+.topnavbar a:hover {
+    background-color: rgb(34, 33, 31);
+    color: #00FF11;
+}
+
+/*Design the color change for the active web page user is currently on*/
+.topnavbar a.active {
+    background-color: #00FF11;
+    color: black;
+}
+
+/*Design and format SignUp button*/
+.signup button{
+    background-color: #0bbe17;
+    font-family: monospace;
+    font-size: x-large;
+    width: 120px;
+    height: 50px;
+}
+
+/*Style hover colors for hover effect on SignUp button*/
+.signup button:hover {
+    background-color: #00FF11;
+    color: black;
+}
+
+/*Design the area that contains authorImage and aboutText*/
+.wrapper {
+    height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Format the text to stay to the right of authorImage*/
+.aboutText {
+    color: #00FF11;
+    display: flex;
+    justify-content:baseline;
+    align-items: baseline;
+    padding-left: -500px;
+}
+
+/*Same formatting as aboutText just for secondary textbox*/
+.aboutText2 {
+    color: #00FF11;
+    display: flex;
+    justify-content:baseline;
+    align-items: baseline;
+    padding-left: -500px;
+    padding-top: -500px;
+}
+
+/*Format authorImage position*/
+.authorImage {
+    float: left;
+    margin-right: 15px;
+}
